@@ -1021,7 +1021,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .staff .staff-img {
   width: 100%;
   float: left;
-  border-radius: 50%;
+  border-radius: 40%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1638,11 +1638,4 @@ h1, h2, h3, h4, h5, h6, figure {
 .js .animate-box {
   opacity: 0;
 }
-
-.circleteam
-  {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px; 
-  }
 /*# sourceMappingURL=style.css.map */
