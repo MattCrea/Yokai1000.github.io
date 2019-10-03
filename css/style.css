@@ -19,6 +19,10 @@ body {
   background: #fff;
 }
 
+body.style-3 {
+  background: #ffffff url(../images/geometry2.png) repeat;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
