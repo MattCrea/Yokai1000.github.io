@@ -62,16 +62,35 @@ body.style-3 {
 
 a {
   color: #2D6CDF;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 a:hover, a:active, a:focus {
   color: #2D6CDF;
   outline: none;
   text-decoration: none;
 }
-
+.menu {
+  padding: 0;
+  margin: 30px 0 0 0;
+}
+.menu li {
+  list-style: none;
+  margin-bottom: 10px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.menu li a {
+  padding: 5px;
+}
+.menu li.active a {
+  color: #b3b3b3;
+}
 p {
   margin-bottom: 20px;
 }
