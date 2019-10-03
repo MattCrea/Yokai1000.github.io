@@ -1,9 +1,13 @@
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src:  url('/fonts/icomoon.eot?kypnnt');
+  src:  url('/fonts/icomoon.eot?kypnnt#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?kypnnt') format('truetype'),
+    url('/fonts/icomoon.woff?kypnnt') format('woff'),
+    url('/fonts/icomoon.svg?kypnnt#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 /* =======================================================
 *
@@ -23,6 +27,7 @@ body.style-3 {
   background: #ffffff url(../images/geometry2.png) repeat;
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;
+  background-position: -30% center;
   font-size: 16px;
   color: #848484;
   background-color: #f0f0f0;
