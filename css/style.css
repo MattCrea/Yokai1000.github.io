@@ -24,7 +24,7 @@ body {
 }
 
 body.form {
-  background-image: url(images/form-bg.jpeg);
+  background-image: url(/images/form-bg.jpeg);
   font-weight: 400;
   font-size: 15px;
   line-height: 1.7;
