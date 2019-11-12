@@ -42,7 +42,3 @@ http://www.owlcarousel.owlgraphic.com/
 
 Magnific Popup
 http://dimsemenov.com/plugins/magnific-popup/
-
-Demo Images:
-http://unsplash.com
-
